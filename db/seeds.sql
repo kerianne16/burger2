@@ -1,7 +1,8 @@
-USE burgers_db;
-INSERT INTO burgers
+USE burgers_sequelize_db;
+
+INSERT INTO burger
     (burger_name, devoured)
 VALUES
-    ("hamburger", false),
-    ("cheeseburger", false),
-    ("veggieburger", false);
+    ("Hamburger", false),
+    ("Cheeseburger", false),
+    ("DoubleDouble", false);

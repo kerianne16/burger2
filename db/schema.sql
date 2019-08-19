@@ -1,7 +1,9 @@
-CREATE DATABASE burgers_db;
-USE burgers_db;
+DROP DATABASE IF EXISTS burgers_sequelize_db;
+CREATE DATABASE burgers_sequelize_db;
 
-CREATE TABLE burgers
+USE burgers_sequelize_db;
+
+CREATE TABLE burger
 (
     id INT NOT NULL
     AUTO_INCREMENT,
